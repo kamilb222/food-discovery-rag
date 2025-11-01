@@ -1,0 +1,23 @@
+# Core Data Science & ML
+pandas
+scikit-learn
+torch
+faiss-cpu
+
+# Hugging Face Ecosystem
+datasets
+transformers
+
+# Data Handling & Utilities
+pyarrow
+requests
+Pillow
+python-dotenv
+
+# Notebooks & Visualization
+jupyterlab
+matplotlib
+seaborn
+
+# Web Application
+streamlit

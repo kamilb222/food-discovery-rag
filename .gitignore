@@ -1,0 +1,24 @@
+# Python virtual environments
+venv/
+*.env
+
+# Data, models, and images
+# These files are too large for Git and should be stored
+# on the shared drive linked in your .env file.
+*.parquet
+*.zip
+*.npy
+*.index
+images/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# IDE and OS-specific files
+.vscode/
+.idea/
+.DS_Store
