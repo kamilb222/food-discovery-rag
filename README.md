@@ -8,6 +8,7 @@ This is the central repository for our 15-week machine learning project. The goa
 2. Create a Virtual Environment
 
     `python -m venv venv`
+    
     `source venv/bin/activate  # On Windows, use `venv\Scripts\activate``
 
 2.  **Set Up Environment:**
