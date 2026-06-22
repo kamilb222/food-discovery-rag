@@ -1,10 +1,12 @@
+cat > .gitignore << 'EOF'
 # Python virtual environments
 venv/
-*.env
+
+# Environment variables
+.env
+!.env.template
 
 # Data, models, and images
-# These files are too large for Git and should be stored
-# on the shared drive linked in your .env file.
 *.parquet
 *.zip
 *.npy
@@ -23,5 +25,13 @@ __pycache__/
 .vscode/
 .idea/
 .DS_Store
-AGENTS.md*.pth
+
+# Misc
+AGENTS.md
+*.pth
 image_download.log
+EOF
+
+git add .gitignore
+git commit -m "Fix gitignore: separate AGENTS.md and *.pth, unblock .env.template"
+git push
