@@ -24,3 +24,4 @@ __pycache__/
 .idea/
 .DS_Store
 AGENTS.md*.pth
+image_download.log
